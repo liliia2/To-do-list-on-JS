@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+  <div class="content">
+
+    <h1 id="header">To Do List</h1>
+
+    <div class="allTasks">
+      <span>
+        <img class="small_icon" alt="Count of all tasks" src="ic_list.svg">All tasks
+      </span>
+      <div id="countOfAllTasks">0</div>
+    </div>
+
+    <div class="allTasks">
+      <span>
+        <img class="small_icon" alt="Count of completed tasks" src="ic_checked.svg">Completed tasks
+      </span>
+      <div id="countOfCompletedTasks">0</div>
+    </div>
+    
+    <ul id="tasks"></ul>
+
+    <input type="text" id="addNewTask" placeholder="Add new task" onKeydown="keyClick()">
+    <button onclick="getNewTask()"> Add </button>
+
+  </div>
+</body>
+
+<script type="text/javascript" src="script.js"></script>
+
+</html>

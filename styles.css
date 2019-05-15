@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url("background_image.jpeg") no-repeat center center fixed;
+    color: #fff;
+    font-family: "Roboto";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    font-size: 14px;
+    padding: 0 8px 2px 8px;
+    width: 280px;
+    border-color: teal;
+    height: 28px;
+}
+
+button {
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: 14px;
+    height: 34px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+ul {
+    padding: 0 0 0 20px;
+}
+
+li {
+    padding: 8px 16px 8px 0px;
+    width: 300px;
+    list-style-type: decimal;
+}
+
+.small_icon {
+    width: 24px;
+    height: 24px;
+    margin: 0px 12px -6px 0px;
+}
+
+.allTasks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px auto 8px auto;
+}
+
+.content {
+    width: 300px;
+    height: fit-content;
+}
+
+.completedTasks {
+    text-decoration: line-through;
+}
+
+#del_icon {
+    opacity: 0.1;
+}
+
+#del_icon:hover {
+    opacity: 1;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+.task:hover {
+    background-color: rgba(256, 256, 256, 0.2);
+}
